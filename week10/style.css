@@ -1,0 +1,31 @@
+[onclick] {
+  cursor: pointer;
+}
+
+[lang = "zh-tw"] [i18n = "自傳"]:before {
+  content: "自傳"
+}
+[lang = "zh-tw"] [i18n = "履歷"]:before {
+  content: "履歷"
+}
+[lang = "zh-tw"] [i18n = "切換背景"]:before {
+  content: "切換背景"
+}
+[lang = "zh-cn"] [i18n = "自傳"]:before {
+  content: "自传"
+}
+[lang = "zh-cn"] [i18n = "履歷"]:before {
+  content: "履历"
+}
+[lang = "zh-cn"] [i18n = "切換背景"]:before {
+  content: "切换背景"
+}
+[lang = "en-us"] [i18n = "自傳"]:before {
+  content: "autobiography"
+}
+[lang = "en-us"] [i18n = "履歷"]:before {
+  content: "resume"
+}
+[lang = "en-us"] [i18n = "切換背景"]:before {
+  content: "change background"
+}

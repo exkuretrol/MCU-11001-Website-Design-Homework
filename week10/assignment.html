@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url("style.css");
+  </style>
+  <script>
+    function switch_lang(lang) {
+      $("body").attr('lang', lang)
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body lang="zh-tw">
+  <div onclick="switch_lang('zh-tw')">繁體中文</div>
+  <div onclick="switch_lang('zh-cn')">简体中文</div>
+  <div onclick="switch_lang('en-us')">English</div>
+  <span i18n="自傳"></span>
+  <br>
+  <span i18n="履歷"></span>
+  <br>
+  <span i18n="切換背景"></span>
+</body>
+</html>
